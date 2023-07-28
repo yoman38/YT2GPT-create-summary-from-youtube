@@ -4,11 +4,13 @@
 **YouTube Transcript - README**
 
 **Description**
+
 YT2GPT is an innovative application that uses AI to convert YouTube video content into easily digestible summaries. Powered by OpenAI's GPT-4 language model and YouTube's transcript API, it offers customized summaries based on user-defined or pre-set prompts. For instance, users can create prompts to develop an engineering report, a coding tutorial, or even a whole course outline from a YouTube video. Also, it can translate content into different languages, making it understable worldwide. Its user-friendly interface, built with PyQt5, keeps users updated on their requests' status. 
 
 One of the significant advantages of GPT2YT is that it uses the information from the video to guide the AI's summarization. This can be seen as a form of fine-tuning the AI model, which is more effective than prompting the AI without any context. The AI isn't starting from scratch but uses the video's content as a foundation, filling in the gaps intelligently, ensuring the summary stays true to the original content.
 
 **Installation**
+
 INSTALL > COPY/PASTE folder YT2GPTX.X to the directory you want.
 Go to DIST>YT2GPT.EXE to launch it. It should work on MAC but would be better with another compilation. That might come.
 Create a shortcut if you need it. 
