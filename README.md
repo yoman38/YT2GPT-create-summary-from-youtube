@@ -11,9 +11,11 @@ One of the significant advantages of YT2GPT is that it uses the information from
 
 **Installation**
 
-INSTALL > COPY/PASTE folder YT2GPTX.X to the directory you want.
-Go to DIST>YT2GPT.EXE to launch it. It should work on MAC but would be better with another compilation. That might come.
-Create a shortcut if you need it. 
+1. INSTALL > COPY/PASTE folder YT2GPTX.X to the directory you want.
+2. Go to DIST>YT2GPT.EXE to launch it. 
+3. Create a shortcut if you need it. 
+
+It should work on MAC but would be better with another compilation. That might come.
 
 **Long description**
 
