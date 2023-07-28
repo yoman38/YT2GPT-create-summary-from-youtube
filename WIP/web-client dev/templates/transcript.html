@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Transcript App</title>
+</head>
+<body>
+    <form method="POST">
+        <!-- Form fields -->
+        <label for="video_link">Paste YouTube video link:</label>
+        <input type="text" id="video_link" name="video_link" required>
+        <br>
+        <label for="chunk_size">Enter the number of characters per chunk (recommended: 8000 for GPT-3, 15000 for GPT-4):</label>
+        <input type="number" id="chunk_size" name="chunk_size" value="{{ settings.chunk_size }}" required>
+        <br>
+        <label for="language">Enter the language for translation:</label>
+        <input type="text" id="language" name="language" value="{{ settings.language }}" required>
+        <br>
+        <label for="prompt">Enter your custom prompt (optional):</label>
+        <textarea id="prompt" name="prompt"></textarea>
+        <br>
+        <label for="end_prompt">Enter your custom ending prompt (optional):</label>
+        <textarea id="end_prompt" name="end_prompt"></textarea>
+        <br>
+        <input type="submit" value="Get transcript">
+    </form>
+
+    {% for prompt in prompts %}
+    <div>
+        <button onclick="copyToClipboard('{{ prompt }}')">Copy chunk</button>
+        <p>{{ prompt }}</p>
+    </div>
+    {% endfor %}
+    <button onclick="copyToClipboard('{{ final_text }}')">Copy final text</button>
+    <p>{{ final_text }}</p>
+
+    <script>
+    function copyToClipboard(text) {
+        var dummy = document.createElement("textarea");
+        document.body.appendChild(dummy);
+        dummy.value = text;
+        dummy.select();
+        document.execCommand("copy");
+        document.body.removeChild(dummy);
+    }
+    </script>
+</body>
+</html>

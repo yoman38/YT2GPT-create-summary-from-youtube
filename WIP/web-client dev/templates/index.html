@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Transcript to AI</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <form action="/" method="post">
+                <label for="video_link">YouTube Video Link</label><br>
+                <input type="text" id="video_link" name="video_link" v-model="video_link"><br>
+                <label for="chunk_size">Chunk Size</label><br>
+                <input type="text" id="chunk_size" name="chunk_size" v-model="chunk_size"><br>
+                <label for="language">Language</label><br>
+                <input type="text" id="language" name="language" v-model="language"><br>
+                <label for="prompt">Prompt</label><br>
+                <input type="text" id="prompt" name="prompt" v-model="prompt"><br>
+                <label for="end_prompt">End Prompt</label><br>
+                <input type="text" id="end_prompt" name="end_prompt" v-model="end_prompt"><br>
+                <input type="submit" value="Submit">
+            </form>
+            <div v-for="(prompt, index) in prompts" :key="index">
+                <h3>{{ prompt.title }}</h3>
+                <p>{{ prompt.content }}</p>
+            </div>
+            <h2>Final Text:</h2>
+            <p>{{ final_text }}</p>
+        </div>
+        <script src="/static/main.js"></script>
+    </body>
+</html>
