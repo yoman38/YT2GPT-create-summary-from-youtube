@@ -1,4 +1,5 @@
-![Book logo](YT2GPT-create-custom-prompts-from-youtube/YTGPT.png)
+![YTGPT](https://github.com/yoman38/YT2GPT-create-custom-prompts-from-youtube/assets/124726056/87362b37-7796-42df-bcbe-d7b39f20c300)
+
 # YT2GPT (infinite liberty version)
  Retrieve transcriptions from youtube and convert it to ready to copy/paste chatGPT prompt
 
