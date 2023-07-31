@@ -26,7 +26,7 @@ To improve the code and re-compilate:
 5. Go to DIST>YT2GPT.EXE to launch it. 
 6. (Create a shortcut if you need it.)
 
-It should work on MAC but would be better with another compilation. That might come.
+It should be compilated for it to work on mac. I will create a new version ASAP.
 
 **Long description**
 
