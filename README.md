@@ -1,4 +1,4 @@
-![Book logo](/least-github-pages/assets/YTGPT.png)
+![Book logo](YT2GPT-create-custom-prompts-from-youtube/YTGPT.png)
 # YT2GPT (infinite liberty version)
  Retrieve transcriptions from youtube and convert it to ready to copy/paste chatGPT prompt
 
