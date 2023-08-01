@@ -1,4 +1,11 @@
 ![YTGPT](https://github.com/yoman38/YT2GPT-create-custom-prompts-from-youtube/assets/124726056/87362b37-7796-42df-bcbe-d7b39f20c300)
+USE CASES
+> GET CLEAN TRANSCRIPT OF YOUTUBE VIDEO
+> CONVERT YOUTUBE VIDEOS TO GPT COMMAND (CUSTOM PROMPTS)
+> SUMMARISE LONG VIDEOS
+> CREATE A TUTORIAL TO LEARN A NEW LANGUAGE
+> FINETUNE GPT WITH PREPROMPT
+> NO NEED FOR API KEYS // FREE (WORK WITH GPT3.5, llama.cpp and such)
 
 # YT2GPT (infinite liberty version)
  Retrieve transcriptions from youtube and convert it to ready to copy/paste chatGPT prompt
