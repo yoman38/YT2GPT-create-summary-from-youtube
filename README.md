@@ -28,7 +28,7 @@ YT2GPT is an innovative application that uses AI to convert YouTube video conten
 
 One of the significant advantages of YT2GPT is that it uses the information from the video to guide the AI's answer. This can be seen as a form of fine-tuning the AI model, which is more effective than prompting the AI without any context. The AI isn't starting from scratch but uses the video's content as a foundation, filling in the gaps intelligently, ensuring the answer stays true to the original content.
 
-**Installation** 
+**Installation** (windows support only)
 
 1. On this page, to the right click on "Release" > "YT2GPT vX.X"
 2. Download the .zip
@@ -36,7 +36,7 @@ One of the significant advantages of YT2GPT is that it uses the information from
 4. Go to DIST>YT2GPT.EXE to launch it.
 5. (create a shortcut if need)
 
-To improve the code and re-compilate:
+To improve the code and re-compilate: (can be done on mac, feel free to contribute)
 1. INSTALL > COPY/PASTE folder YT2GPTX.X to the directory you want.
 2. Open YT2GPT4.py (in VStudio code for example)
 3. "pyinstaller --onefile --windowed --icon=logo.png main.py" to create the .exe
