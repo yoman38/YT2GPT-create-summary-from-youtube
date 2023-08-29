@@ -1,4 +1,8 @@
-![YTGPT](https://github.com/yoman38/YT2GPT-create-custom-prompts-from-youtube/assets/124726056/87362b37-7796-42df-bcbe-d7b39f20c300)
+![image](https://github.com/yoman38/YT2GPT-create-summary-from-youtube/assets/124726056/355eab10-edcd-4597-9d66-d4e785559834)
+
+![image](https://github.com/yoman38/YT2GPT-create-summary-from-youtube/assets/124726056/f685855c-4f4f-4366-ae0f-338a29a18592)
+
+![image](https://github.com/yoman38/YT2GPT-create-summary-from-youtube/assets/124726056/4f7ee06c-1731-4628-ad9a-5f35bec28623)
 
 
 USE CASES
